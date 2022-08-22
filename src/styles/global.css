@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+    --white: #fff;
+    --dark-500: #583931;
+
+    --gray-200: #EDEDED;
+    --gray-600: #442525;
+
+    --green-500: #00875F;
+
+    --red-500: #D91316;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--dark-500);  
+    
+}
+
+body, input, button {
+    font-family:  'inter', sans-serif;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+}
